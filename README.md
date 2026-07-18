@@ -9,6 +9,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@nmuravya-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/nmuravya)
 [![Email](https://img.shields.io/badge/Email-nmuravya@mail.ru-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nmuravya@mail.ru)
 [![GitHub](https://img.shields.io/badge/GitHub-SikioN-181717?style=flat&logo=github)](https://github.com/SikioN)
+[![Interactive CV](https://img.shields.io/badge/Interactive_CV-Online-8B5CF6?style=flat&logo=google-chrome&logoColor=white)](https://sikion.github.io/SikioN/)
 [![Location](https://img.shields.io/badge/Saint_Petersburg-Russia-0078D4?style=flat)](https://github.com/SikioN)
 
 </div>
@@ -93,6 +94,7 @@ Computer Vision            →  Semantic 3D reconstruction, Gaussian Splatting, 
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [AlloyRAG](https://github.com/SikioN/AlloyRAG) | RAG system for material science documents · correct PDF table parsing · Corrective RAG (CRAG) · material domain ontology | Python · RAG · CRAG |
 | [Incremental Graph Embeddings](https://github.com/SikioN/Personal-AI-dev-2) | R&D with Sberbank · efficient node/edge embedding updates in dynamic graphs without full recomputation | PyTorch · GNN · TGN |
 | [Hypergraph GenAI](https://github.com/TimurPshITMO/HEP) | Hypergraph NNs for high-order multimodal feature extraction · **Best Report, Congress of Young Scientists 2026** | PyTorch · Transformers |
 | [Multi-Agent System](https://github.com/SikioN/MegaSchool-Coding-Agents) | Decentralised MAS without central controller · formal convergence verification · LLM integration · **MegaContest Winner** | Python · RL · LLM |
@@ -108,6 +110,12 @@ Computer Vision            →  Semantic 3D reconstruction, Gaussian Splatting, 
 - **Methodological Committee**, OMMO & NTO National Olympiads
 
 
+
+## Technologies & Core Skills
+
+`Python` · `PyTorch` · `Hugging Face` · `Scikit-learn` · `XGBoost` · `NumPy` · `Pandas` · `OpenCV` · `GraphSAGE` · `GAT` · `RGCN` · `TGN` · `GraphMixer` · `LoRA / PEFT / SFT` · `RAG` · `CRAG` · `FAISS` · `Qdrant` · `Chroma` · `LangGraph` · `Pydantic AI` · `FastAPI` · `Docker` · `PostgreSQL` · `Git` · `Linux` · `LaTeX` · `Jupyter` · `TDA (Persistent Homology, Mapper)` · `Graph Theory` · `Differential Equations` · `Numerical Methods` · `Optimization`
+
+---
 
 <div align="center">
 
