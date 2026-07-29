@@ -220,30 +220,44 @@
     }
 
     /* WORK EXPERIENCE / PROJECTS */
-    .job, .project, .edu-item, .cert-item {
+    .job,
+    .project,
+    .edu-item,
+    .cert-item {
       margin-bottom: 12px;
     }
 
-    .job-header, .project-header, .edu-header, .cert-header {
+    .job-header,
+    .project-header,
+    .edu-header,
+    .cert-header {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
       gap: 12px;
     }
 
-    .job-company, .project-title, .edu-title, .cert-title {
+    .job-company,
+    .project-title,
+    .edu-title,
+    .cert-title {
       font-family: 'DM Sans', 'Arial', sans-serif;
       font-size: 14px;
       font-weight: 600;
       color: hsl(270, 70%, 45%);
     }
 
-    .job-company a, .project-title a, .edu-title a {
+    .job-company a,
+    .project-title a,
+    .edu-title a {
       color: hsl(270, 70%, 45%);
       text-decoration: underline;
     }
 
-    .job-period, .project-badge, .edu-year, .cert-year {
+    .job-period,
+    .project-badge,
+    .edu-year,
+    .cert-year {
       font-size: 12px;
       color: #777;
       white-space: nowrap;
@@ -275,7 +289,9 @@
       margin-bottom: 3px;
     }
 
-    .project-desc, .edu-desc, .cert-desc {
+    .project-desc,
+    .edu-desc,
+    .cert-desc {
       font-size: 14px;
       color: #444;
       margin-top: 2px;
@@ -334,28 +350,38 @@
         padding: 20px;
         max-width: 100%;
       }
+
       .controls {
         top: 20px;
         right: 20px;
       }
+
       .header-inner {
         flex-direction: column-reverse;
         align-items: flex-start;
         gap: 12px;
       }
+
       .cv-photo {
         width: 80px;
         height: 80px;
       }
+
       .header h1 {
         font-size: 26px;
       }
-      .job-header, .project-header, .edu-header {
+
+      .job-header,
+      .project-header,
+      .edu-header {
         flex-direction: column;
         align-items: flex-start;
         gap: 2px;
       }
-      .job-period, .project-badge, .edu-year {
+
+      .job-period,
+      .project-badge,
+      .edu-year {
         margin-top: 2px;
       }
     }
@@ -368,42 +394,58 @@
         -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
       }
+
       .page {
         padding: 0 !important;
       }
+
       .controls {
         display: none !important;
       }
+
       .section {
         opacity: 1 !important;
         transform: none !important;
         margin-bottom: 18px !important;
       }
+
       .summary-text {
         font-size: 12.5px !important;
         line-height: 1.55 !important;
       }
-      li, .project-desc, .edu-desc {
+
+      li,
+      .project-desc,
+      .edu-desc {
         font-size: 12.5px !important;
       }
-      .job-company, .project-title, .edu-title, .cert-title {
+
+      .job-company,
+      .project-title,
+      .edu-title,
+      .cert-title {
         font-size: 13.5px !important;
       }
+
       .section-title {
         font-size: 14px !important;
         margin-bottom: 10px !important;
       }
+
       .cv-photo {
         width: 85px !important;
         height: 85px !important;
       }
+
       .header h1 {
         font-size: 26px !important;
       }
+
       strong {
         background-image: none !important;
         padding: 0 !important;
       }
+
       .avoid-break {
         break-inside: avoid !important;
         page-break-inside: avoid !important;
@@ -415,7 +457,7 @@
 <body class="lang-ru">
 
   <div class="page">
-    
+
     <!-- LANG CONTROL -->
     <div class="controls">
       <button class="lang-btn" id="lang-btn">EN</button>
@@ -470,7 +512,12 @@
           продуктовой разработки.
         </span>
         <span class="lang-en">
-          ML Engineer and Researcher with a strong mathematical background and focus on <strong>NLP, LLM, and Classical ML</strong>. Experienced in building <strong>RAG pipelines</strong> for unstructured knowledge bases to mitigate hallucinations and improve accuracy. Deeply understand modern LLM architectures (Transformers), regularly study SOTA papers (NeurIPS, ICLR), and rapidly deploy cutting-edge approaches to production. Proficient in Information Retrieval methods and classical machine learning. My approach is a synergy of rigorous academic research and practical software engineering.
+          ML Engineer and Researcher with a strong mathematical background and focus on <strong>NLP, LLM, and Classical
+            ML</strong>. Experienced in building <strong>RAG pipelines</strong> for unstructured knowledge bases to
+          mitigate hallucinations and improve accuracy. Deeply understand modern LLM architectures (Transformers),
+          regularly study SOTA papers (NeurIPS, ICLR), and rapidly deploy cutting-edge approaches to production.
+          Proficient in Information Retrieval methods and classical machine learning. My approach is a synergy of
+          rigorous academic research and practical software engineering.
         </span>
       </div>
     </div>
@@ -485,7 +532,22 @@
       <div class="edu-item">
         <div class="edu-header">
           <span class="edu-title">
-            <span class="lang-ru">Бакалавриат: <span class="edu-org">Искусственный интеллект и Робототехника</span></span>
+            <span class="lang-ru">Магистратура: <span class="edu-org">Аналитика данных</span></span>
+            <span class="lang-en">Master's: <span class="edu-org">Data Analytics</span></span>
+          </span>
+          <span class="edu-year">2026 — н.в.</span>
+        </div>
+        <div class="edu-desc">
+          <span class="lang-ru">Университет ИТМО, Санкт-Петербург</span>
+          <span class="lang-en">ITMO University, Saint Petersburg</span>
+        </div>
+      </div>
+
+      <div class="edu-item">
+        <div class="edu-header">
+          <span class="edu-title">
+            <span class="lang-ru">Бакалавриат: <span class="edu-org">Искусственный интеллект и
+                Робототехника</span></span>
             <span class="lang-en">Bachelor's: <span class="edu-org">Artificial Intelligence and Robotics</span></span>
           </span>
           <span class="edu-year">2022 — 2026</span>
@@ -537,16 +599,24 @@
         </div>
         <ul>
           <span class="lang-ru">
-            <li><strong>НИР от Сбера:</strong> разработка алгоритмов инкрементального обновления эмбеддингов в динамических графах (GNN, GraphSAGE, RGCN, GAT).</li>
-            <li>Разработка архитектуры <strong>инкрементального обновления темпоральных графов знаний</strong> для RAG систем. <a href="https://github.com/SikioN/Personal-AI-dev-2">(GitHub)</a></li>
-            <li>Внедрил <strong>Chain-of-Thought (CoT)</strong> и <strong>ReAct</strong>-рассуждения в агентские пайплайны на базе GigaChat / LLM-API с function calling и графовой базой знаний.</li>
-            <li>Настроил векторный поиск и гибридное ранжирование (<strong>FAISS</strong>, dense + sparse retrieval, cross-encoder reranking) для повышения точности RAG-контура.</li>
+            <li><strong>НИР от Сбера:</strong> разработка алгоритмов инкрементального обновления эмбеддингов в
+              динамических графах (GNN, GraphSAGE, RGCN, GAT).</li>
+            <li>Разработка архитектуры <strong>инкрементального обновления темпоральных графов знаний</strong> для RAG
+              систем. <a href="https://github.com/SikioN/Personal-AI-dev-2">(GitHub)</a></li>
+            <li>Внедрил <strong>Chain-of-Thought (CoT)</strong> и <strong>ReAct</strong>-рассуждения в агентские
+              пайплайны на базе GigaChat / LLM-API с function calling и графовой базой знаний.</li>
+            <li>Настроил векторный поиск и гибридное ранжирование (<strong>FAISS</strong>, dense + sparse retrieval,
+              cross-encoder reranking) для повышения точности RAG-контура.</li>
           </span>
           <span class="lang-en">
-            <li><strong>Sber R&D:</strong> developed algorithms for incremental node/edge embedding updates in dynamic graphs (GNN, GraphSAGE, RGCN, GAT).</li>
-            <li>Designed incremental updating architectures for temporal knowledge graphs in RAG systems. <a href="https://github.com/SikioN/Personal-AI-dev-2">(GitHub)</a></li>
-            <li>Integrated <strong>Chain-of-Thought (CoT)</strong> and <strong>ReAct</strong> reasoning into agentic pipelines using GigaChat / LLM APIs with function calling and graph database search.</li>
-            <li>Configured vector search and hybrid retrieval (<strong>FAISS</strong>, dense + sparse retrieval, cross-encoder reranking) to improve RAG accuracy.</li>
+            <li><strong>Sber R&D:</strong> developed algorithms for incremental node/edge embedding updates in dynamic
+              graphs (GNN, GraphSAGE, RGCN, GAT).</li>
+            <li>Designed incremental updating architectures for temporal knowledge graphs in RAG systems. <a
+                href="https://github.com/SikioN/Personal-AI-dev-2">(GitHub)</a></li>
+            <li>Integrated <strong>Chain-of-Thought (CoT)</strong> and <strong>ReAct</strong> reasoning into agentic
+              pipelines using GigaChat / LLM APIs with function calling and graph database search.</li>
+            <li>Configured vector search and hybrid retrieval (<strong>FAISS</strong>, dense + sparse retrieval,
+              cross-encoder reranking) to improve RAG accuracy.</li>
           </span>
         </ul>
       </div>
@@ -565,15 +635,19 @@
         </div>
         <ul>
           <span class="lang-ru">
-            <li>Применял <strong>классическое машинное обучение</strong> (Classic ML) и свёрточные нейросети для детекции и медицинской классификации.</li>
+            <li>Применял <strong>классическое машинное обучение</strong> (Classic ML) и свёрточные нейросети для
+              детекции и медицинской классификации.</li>
             <li>Разработал систему автоматической классификации вопросов и генерации ответов в Helpdesk (Jira).</li>
-            <li>Спроектировал <strong>агентский пайплайн</strong> на основе LLM (<strong>LangChain / LangGraph</strong>) с CoT-рассуждениями и function calling.</li>
-            <li>Построил векторное хранилище на <strong>FAISS/Qdrant</strong> с эмбеддингами документов и reranking-моделью.</li>
+            <li>Спроектировал <strong>агентский пайплайн</strong> на основе LLM (<strong>LangChain / LangGraph</strong>)
+              с CoT-рассуждениями и function calling.</li>
+            <li>Построил векторное хранилище на <strong>FAISS/Qdrant</strong> с эмбеддингами документов и
+              reranking-моделью.</li>
           </span>
           <span class="lang-en">
             <li>Applied classical machine learning and CNNs for medical image detection and classification.</li>
             <li>Developed an automated ticket classification and response generation system for Helpdesk (Jira).</li>
-            <li>Designed an LLM-based <strong>agentic pipeline</strong> (<strong>LangChain / LangGraph</strong>) with CoT and function calling.</li>
+            <li>Designed an LLM-based <strong>agentic pipeline</strong> (<strong>LangChain / LangGraph</strong>) with
+              CoT and function calling.</li>
             <li>Built vector storage using <strong>FAISS/Qdrant</strong> with document embeddings and reranking.</li>
           </span>
         </ul>
@@ -593,13 +667,17 @@
         </div>
         <ul>
           <span class="lang-ru">
-            <li>Ведение практических занятий по <strong>дифференциальным уравнениям</strong>, <strong>линейной алгебре</strong> и <strong>математическому анализу</strong>.</li>
+            <li>Ведение практических занятий по <strong>дифференциальным уравнениям</strong>, <strong>линейной
+                алгебре</strong> и <strong>математическому анализу</strong>.</li>
             <li>Разработка авторских задач и методических материалов для Data Science и ML.</li>
-            <li>Консультирование студентов по математическому аппарату ML: матстатистика, теория вероятностей, оптимизация.</li>
+            <li>Консультирование студентов по математическому аппарату ML: матстатистика, теория вероятностей,
+              оптимизация.</li>
           </span>
           <span class="lang-en">
-            <li>Conducted seminars on <strong>Differential Equations</strong>, <strong>Linear Algebra</strong>, and <strong>Calculus</strong>.</li>
-            <li>Developed customized problems and educational course materials tailored for Data Science and ML tracks.</li>
+            <li>Conducted seminars on <strong>Differential Equations</strong>, <strong>Linear Algebra</strong>, and
+              <strong>Calculus</strong>.</li>
+            <li>Developed customized problems and educational course materials tailored for Data Science and ML tracks.
+            </li>
             <li>Consulted students on the mathematical foundations of ML: stats, probability, and optimization.</li>
           </span>
         </ul>
@@ -619,11 +697,13 @@
         </div>
         <ul>
           <span class="lang-ru">
-            <li>Реализация исследовательского проекта: <strong>«Геометрически правдоподобный семантический Gaussian Splatting»</strong>. <a href="https://github.com/SikioN/gaussian_splatting">(GitHub)</a></li>
+            <li>Реализация исследовательского проекта: <strong>«Геометрически правдоподобный семантический Gaussian
+                Splatting»</strong>. <a href="https://github.com/SikioN/gaussian_splatting">(GitHub)</a></li>
             <li>Работал с методами семантической реконструкции 3D-сцен и сложными архитектурами Computer Vision.</li>
           </span>
           <span class="lang-en">
-            <li>Implemented the research project: <strong>"Geometrically Plausible Semantic Gaussian Splatting"</strong>. <a href="https://github.com/SikioN/gaussian_splatting">(GitHub)</a></li>
+            <li>Implemented the research project: <strong>"Geometrically Plausible Semantic Gaussian
+                Splatting"</strong>. <a href="https://github.com/SikioN/gaussian_splatting">(GitHub)</a></li>
             <li>Worked with semantic 3D scene reconstruction and complex computer vision architectures.</li>
           </span>
         </ul>
@@ -650,10 +730,14 @@
         </div>
         <div class="project-desc">
           <span class="lang-ru">
-            Доклад-победитель: <strong>Hypergraph-Evolved Pipelines</strong> — фреймворк для автоматического конструирования признаков (<strong>AutoFE</strong>), использующий генетические алгоритмы на основе структуры функциональных гиперграфов. <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
+            Доклад-победитель: <strong>Hypergraph-Evolved Pipelines</strong> — фреймворк для автоматического
+            конструирования признаков (<strong>AutoFE</strong>), использующий генетические алгоритмы на основе структуры
+            функциональных гиперграфов. <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
           </span>
           <span class="lang-en">
-            Winning report: <strong>Hypergraph-Evolved Pipelines</strong> — a framework for automated feature engineering (<strong>AutoFE</strong>) utilizing genetic algorithms over functional hypergraph structures. <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
+            Winning report: <strong>Hypergraph-Evolved Pipelines</strong> — a framework for automated feature
+            engineering (<strong>AutoFE</strong>) utilizing genetic algorithms over functional hypergraph structures. <a
+              href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
           </span>
         </div>
       </div>
@@ -661,17 +745,23 @@
       <div class="project avoid-break">
         <div class="project-header">
           <span class="project-title">
-            <span class="lang-ru">Лаборатория МФТИ | Generative AI (NLP/LLM)</span>
-            <span class="lang-en">MIPT Lab | Generative AI (NLP/LLM)</span>
+            <span class="lang-ru">Лаборатория МФТИ | Генеративный ИИ и роботы</span>
+            <span class="lang-en">MIPT Lab | Generative AI and Robotics</span>
           </span>
           <span class="project-badge">2024</span>
         </div>
         <div class="project-desc">
           <span class="lang-ru">
-            Интенсивная программа Яндекса по Generative AI (совместно с МФТИ). Разработал гиперграфовые модели для повышения эффективности feature extraction в мультимодальных системах. Исследовал применение Hypergraph Neural Networks. <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
+            Интенсивная программа Яндекса по Генеративный ИИ и роботы (совместно с МФТИ). Разработал гиперграфовые
+            модели для повышения эффективности feature extraction в мультимодальных системах. Исследовал применение
+            Hypergraph Neural Networks. Разработал xgi_optimized — Python пакет для оптимизации работы с гиперграфами на
+            основе пакета CompleX Group Interactions (XGI). <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
           </span>
           <span class="lang-en">
-            Yandex intensive program on Generative AI (in collaboration with MIPT). Designed hypergraph representations to optimize feature extraction in multimodal systems. Researched Hypergraph Neural Networks. <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
+            Yandex intensive program on Generative AI and Robotics (in collaboration with MIPT). Designed hypergraph
+            representations to optimize feature extraction in multimodal systems. Researched Hypergraph Neural Networks.
+            Developed xgi_optimized, a Python package for optimizing hypergraph operations based on the CompleX Group
+            Interactions (XGI) package. <a href="https://github.com/TimurPshITMO/HEP">(GitHub)</a>
           </span>
         </div>
       </div>
@@ -689,10 +779,14 @@
         </div>
         <div class="project-desc">
           <span class="lang-ru">
-            Двукратный победитель в треках «Прикладной ИИ» и «Математическое моделирование». Разработка децентрализованной среды управления агентами (MAS) с использованием RL и оптимизационных алгоритмов. <a href="https://github.com/SikioN/MegaSchool-Coding-Agents">(GitHub)</a>
+            Двукратный победитель в треках «Прикладной ИИ» и «Математическое моделирование». Разработка
+            децентрализованной среды управления агентами (MAS) с использованием RL и оптимизационных алгоритмов. <a
+              href="https://github.com/SikioN/MegaSchool-Coding-Agents">(GitHub)</a>
           </span>
           <span class="lang-en">
-            Two-time champion in "Applied AI" and "Mathematical Modelling" tracks. Built a decentralized multi-agent system environment utilizing RL and advanced optimization. <a href="https://github.com/SikioN/MegaSchool-Coding-Agents">(GitHub)</a>
+            Two-time champion in "Applied AI" and "Mathematical Modelling" tracks. Built a decentralized multi-agent
+            system environment utilizing RL and advanced optimization. <a
+              href="https://github.com/SikioN/MegaSchool-Coding-Agents">(GitHub)</a>
           </span>
         </div>
       </div>
@@ -704,10 +798,15 @@
         </div>
         <div class="project-desc">
           <span class="lang-ru">
-            RAG-система для поиска по технической документации по материаловедению: корректная обработка таблиц из PDF, использование <strong>CRAG (Corrective RAG)</strong> для повышения точности извлечения, отраслевая онтология для структурированного поиска по материалам и сплавам. <a href="https://github.com/SikioN/AlloyRAG">(GitHub)</a>
+            RAG-система для поиска по технической документации по материаловедению: корректная обработка таблиц из PDF,
+            использование <strong>CRAG (Corrective RAG)</strong> для повышения точности извлечения, отраслевая онтология
+            для структурированного поиска по материалам и сплавам. <a
+              href="https://github.com/SikioN/AlloyRAG">(GitHub)</a>
           </span>
           <span class="lang-en">
-            Advanced RAG system for material science documents: featuring high-fidelity PDF table parsing, <strong>Corrective RAG (CRAG)</strong> flow for robust extraction, and a dedicated industry ontology for structured query routing. <a href="https://github.com/SikioN/AlloyRAG">(GitHub)</a>
+            Advanced RAG system for material science documents: featuring high-fidelity PDF table parsing,
+            <strong>Corrective RAG (CRAG)</strong> flow for robust extraction, and a dedicated industry ontology for
+            structured query routing. <a href="https://github.com/SikioN/AlloyRAG">(GitHub)</a>
           </span>
         </div>
       </div>
@@ -720,13 +819,21 @@
         <span class="lang-en">Technical Stack</span>
       </div>
       <ul class="skills-list">
-        <li><span class="skill-category">NLP &amp; LLM:</span> LLM Fine-tuning (LoRA/PEFT/SFT), RAG, CRAG, Information Retrieval, Hugging Face Transformers, BERT/RoBERTa, Prompt Engineering, GigaChat, OpenAI API</li>
-        <li><span class="skill-category">Agentic AI:</span> LangGraph, Pydantic AI, Chain-of-Thought (CoT), ReAct, Function Calling, Multi-Agent Orchestration (MAS), Reinforcement Learning</li>
-        <li><span class="skill-category">Retrieval &amp; Vector Search:</span> FAISS, Qdrant, Chroma, Embeddings, Hybrid Search, Semantic Chunking, Cross-Encoder Reranking, Structured Output</li>
-        <li><span class="skill-category">Graph ML:</span> GraphSAGE, RGCN, GAT, TGN, GraphMixer, Hypergraph Neural Networks, Temporal/Dynamic Graphs, AutoFE</li>
-        <li><span class="skill-category">Classic ML &amp; CV:</span> Scikit-learn, XGBoost, OpenCV, ViT, Gaussian Splatting, Feature Engineering, Time Series Forecasting</li>
-        <li><span class="skill-category">Математика:</span> Линейная алгебра, Математическая статистика, Теория вероятностей, TDA (Persistent Homology, Mapper), Теория графов, Дифференциальные уравнения, Численные методы, Оптимизация</li>
-        <li><span class="skill-category">Инструменты:</span> PyTorch, Python (Advanced), FastAPI, Docker, PostgreSQL, Git, Linux/Bash, LaTeX</li>
+        <li><span class="skill-category">NLP &amp; LLM:</span> LLM Fine-tuning (LoRA/PEFT/SFT), RAG, CRAG, Information
+          Retrieval, Hugging Face Transformers, BERT/RoBERTa, Prompt Engineering, GigaChat, OpenAI API</li>
+        <li><span class="skill-category">Agentic AI:</span> LangGraph, Pydantic AI, Chain-of-Thought (CoT), ReAct,
+          Function Calling, Multi-Agent Orchestration (MAS), Reinforcement Learning</li>
+        <li><span class="skill-category">Retrieval &amp; Vector Search:</span> FAISS, Qdrant, Chroma, Embeddings, Hybrid
+          Search, Semantic Chunking, Cross-Encoder Reranking, Structured Output</li>
+        <li><span class="skill-category">Graph ML:</span> GraphSAGE, RGCN, GAT, TGN, GraphMixer, Hypergraph Neural
+          Networks, Temporal/Dynamic Graphs, AutoFE</li>
+        <li><span class="skill-category">Classic ML &amp; CV:</span> Scikit-learn, XGBoost, OpenCV, ViT, Gaussian
+          Splatting, Feature Engineering, Time Series Forecasting</li>
+        <li><span class="skill-category">Математика:</span> Линейная алгебра, Математическая статистика, Теория
+          вероятностей, TDA (Persistent Homology, Mapper), Теория графов, Дифференциальные уравнения, Численные методы,
+          Оптимизация</li>
+        <li><span class="skill-category">Инструменты:</span> PyTorch, Python (Advanced), FastAPI, Docker, PostgreSQL,
+          Git, Linux/Bash, LaTeX</li>
       </ul>
     </div>
 
