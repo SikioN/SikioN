@@ -41,6 +41,7 @@
 ![LLM](https://img.shields.io/badge/LLM_Fine--tuning-LoRA·PEFT·SFT-8B5CF6?style=flat)
 ![VectorDB](https://img.shields.io/badge/Vector_Databases-FAISS·Qdrant·Chroma-F59E0B?style=flat)
 ![MAS](https://img.shields.io/badge/Multi--Agent_Systems-LLM_Orchestration-10B981?style=flat)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-ReAct·CoT·Function_Calling-E92063?style=flat)
 
 
 ---
