@@ -2,9 +2,7 @@
 
 # Hi, I'm Nikita Muravya 👋
 
-**ML Engineer · NLP / LLM Researcher · Graph ML**
-
-*Bridging rigorous mathematics and production-ready AI systems*
+**ML Engineer · LLM Researcher**
 
 [![Telegram](https://img.shields.io/badge/Telegram-@nmuravya-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/nmuravya)
 [![Email](https://img.shields.io/badge/Email-nmuravya@mail.ru-D14836?style=flat&logo=gmail&logoColor=white)](mailto:nmuravya@mail.ru)
@@ -43,51 +41,29 @@
 ![MAS](https://img.shields.io/badge/Multi--Agent_Systems-LLM_Orchestration-10B981?style=flat)
 ![Agentic AI](https://img.shields.io/badge/Agentic_AI-ReAct·CoT·Function_Calling-E92063?style=flat)
 
-
 ---
 
 ## About
 
-ML Engineer and researcher at ITMO University. I work at the intersection of **Graph Machine Learning**, **NLP/LLM systems**, and **mathematical modelling**. My background combines formal mathematics (I teach and develop university courses) with hands-on engineering of RAG pipelines, GNN architectures, and multi-agent systems.
+ML Engineer and Researcher with a mathematical background and focus on **NLP, LLM, and Classical ML**. Experienced in building **RAG pipelines** for unstructured knowledge bases and fine-tuning models. I combine formal mathematics (teaching at ITMO University) with hands-on engineering of LLM agents, GNN architectures, and multi-agent systems.
 
 Currently conducting an active **R&D project with Sberbank** on incremental graph embedding updates for dynamic knowledge graphs.
 
 ---
 
-## Research & Engineering Interests
+## Core Competencies & Technologies
 
-```
-Graph Machine Learning    →  Dynamic GNNs, incremental embeddings, temporal graphs
-NLP / LLM Systems         →  RAG pipelines, fine-tuning (LoRA/PEFT), LLM agents
-Information Retrieval      →  Hybrid search, reranking, semantic chunking, vector DBs
-Multi-Agent Systems        →  Decentralized MAS, LLM orchestration, emergent behaviour
-Generative AI              →  Multimodal architectures, hypergraph feature extraction
-Mathematical ML            →  TDA, graph theory, probabilistic modelling, optimisation
-Computer Vision            →  Semantic 3D reconstruction, Gaussian Splatting, ViT
-```
+**NLP, LLM & Agentic AI**
+`Transformers` `BERT / RoBERTa` `LoRA / PEFT / SFT` `RAG & CRAG` `Hybrid Search` `LangGraph` `Pydantic AI` `CoT & ReAct` `GigaChat / OpenAI API`
 
----
+**Graph ML & Classic ML**
+`GraphSAGE` `RGCN` `GAT` `TGN` `Hypergraph Neural Networks` `Scikit-learn` `XGBoost` `OpenCV` `ViT` `Gaussian Splatting`
 
-## Core Competencies
-
-**Deep Learning & Research**
-`Graph Neural Networks` `GraphSAGE` `GAT` `RGCN` `TGN` `GraphMixer`
-`Transformers` `BERT / RoBERTa` `LoRA / PEFT / SFT`
-`Hypergraph Neural Networks` `Multi-Agent Systems` `LangGraph` `Pydantic AI`
-
-**NLP & LLM Engineering**
-`RAG Pipelines` `Hybrid Search` `Reranking` `NER / NEL` `Structured Output`
-`Prompt Engineering` `Function Calling` `GigaChat` `OpenAI API` `Vector Databases`
-`Natasha` `DeepPavlov` `Semantic Chunking`
+**Vector Search & Tools**
+`FAISS` `Qdrant` `Chroma` `Semantic Chunking` `Cross-Encoder Reranking` `FastAPI` `Docker` `PostgreSQL`
 
 **Mathematics** *(teaching & applied)*
-`Linear Algebra` `Probability Theory` `Mathematical Statistics`
-`Differential Equations` `Numerical Methods (Runge-Kutta, FDM)`
-`Graph Theory` `Topological Data Analysis` `Optimisation`
-
-**Classical ML & CV**
-`Scikit-learn` `XGBoost` `Feature Engineering` `A/B Testing`
-`OpenCV` `ViT` `Gaussian Splatting` `Time Series Forecasting`
+`Linear Algebra` `Probability Theory` `TDA (Persistent Homology, Mapper)` `Graph Theory` `Differential Equations` `Optimization`
 
 ---
 
@@ -97,29 +73,19 @@ Computer Vision            →  Semantic 3D reconstruction, Gaussian Splatting, 
 |---------|-------------|-------|
 | [AlloyRAG](https://github.com/SikioN/AlloyRAG) | RAG system for material science documents · correct PDF table parsing · Corrective RAG (CRAG) · material domain ontology | Python · RAG · CRAG |
 | [Incremental Graph Embeddings](https://github.com/SikioN/Personal-AI-dev-2) | R&D with Sberbank · efficient node/edge embedding updates in dynamic graphs without full recomputation | PyTorch · GNN · TGN |
-| [Hypergraph GenAI](https://github.com/TimurPshITMO/HEP) | Hypergraph NNs for high-order multimodal feature extraction · **Best Report, Congress of Young Scientists 2026** | PyTorch · Transformers |
-| [Multi-Agent System](https://github.com/SikioN/MegaSchool-Coding-Agents) | Decentralised MAS without central controller · formal convergence verification · LLM integration · **MegaContest Winner** | Python · RL · LLM |
+| [Hypergraph GenAI](https://github.com/TimurPshITMO/HEP) | Hypergraph NNs for automated feature engineering (AutoFE) · **Best Report, Congress of Young Scientists 2026** | PyTorch · Transformers |
+| [Multi-Agent System](https://github.com/SikioN/MegaSchool-Coding-Agents) | Decentralised MAS without central controller · RL and optimization · **MegaContest Winner (2025, 2026)** | Python · RL · LLM |
+| [MIPT Generative AI](https://github.com/TimurPshITMO/HEP) | Yandex/MIPT intensive · hypergraph optimization package (`xgi_optimized`) for multimodal systems | Python · Math |
 | [Gaussian Splatting](https://github.com/SikioN/gaussian_splatting) | Geometrically plausible semantic 3D scene reconstruction | Python · OpenCV |
-| [TDA Open Textbook](https://github.com/SikioN/itmobook---topology) | Persistent homology, Mapper, TDA for neural network analysis · used in ITMO curriculum | TDA · Math |
 
 ---
 
-## Teaching & Courses
+## Experience & Education
 
-- **Mathematics Lecturer**, ITMO Institute of Mathematics — Differential Equations, Linear Algebra, Calculus, Mathematical Statistics, Probability Theory
-- **NLP Course Developer** — designing a university-level NLP course covering classical and neural approaches
-- **Methodological Committee**, OMMO & NTO National Olympiads
+- **Researcher / Assistant Researcher** @ *Sber, AI and Data Center BSR* (09.2025 — 07.2026)
+- **ML / NLP Engineer (Intern)** @ *ITMO University, Higher School of Digital Culture* (09.2025 — 08.2026)
+- **Lecturer of Higher Mathematics** @ *ITMO University, Institute of Mathematics* (09.2024 — Present)
+- **Master's in Data Analytics** / **Bachelor's in AI and Robotics** @ *ITMO University*
 
-
-
-## Technologies & Core Skills
-
-`Python` · `PyTorch` · `Hugging Face` · `Scikit-learn` · `XGBoost` · `NumPy` · `Pandas` · `OpenCV` · `GraphSAGE` · `GAT` · `RGCN` · `TGN` · `GraphMixer` · `LoRA / PEFT / SFT` · `RAG` · `CRAG` · `FAISS` · `Qdrant` · `Chroma` · `LangGraph` · `Pydantic AI` · `FastAPI` · `Docker` · `PostgreSQL` · `Git` · `Linux` · `LaTeX` · `Jupyter` · `TDA (Persistent Homology, Mapper)` · `Graph Theory` · `Differential Equations` · `Numerical Methods` · `Optimization`
-
----
-
-<div align="center">
-
-*"All models are wrong, but some are useful."*
 
 </div>
